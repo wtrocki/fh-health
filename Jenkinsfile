@@ -6,7 +6,7 @@ node {
     stage 'check environment'
     sh "node -v"
     sh "npm -v"
-    sh "grunt -v"
+    //sh "grunt -v"
 
     stage 'checkout'
     checkout scm
