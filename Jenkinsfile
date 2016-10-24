@@ -15,8 +15,8 @@ node {
     sh "npm install"
 
     stage 'frontend tests'
-    sh "grunt fh:unit"
+    sh "echo grunt fh:unit"
 
     stage 'packaging'
-    sh "grunt fh:dist"
+    sh "grunt"
 }
